@@ -1,0 +1,20 @@
+﻿{
+  "personas": [
+    { "name": "Cliente Comprador", "role": "cliente",       "primary": true },
+    { "name": "Vendedor",          "role": "vendedor",      "primary": true },
+    { "name": "Administrador",     "role": "administrador", "primary": true }
+  ],
+  "pains": [
+    { "id": "talla-no-disponible",       "source": "cliente.md",       "persona": "Cliente Comprador" },
+    { "id": "calidad-insuficiente-plus", "source": "cliente.md",       "persona": "Cliente Comprador" },
+    { "id": "tallas-inconsistentes",     "source": "cliente.md",       "persona": "Cliente Comprador" },
+    { "id": "fotos-no-representan",      "source": "cliente.md",       "persona": "Cliente Comprador" },
+    { "id": "busqueda-no-intuitiva",     "source": "cliente.md",       "persona": "Cliente Comprador" },
+    { "id": "consulta-talla-lenta",      "source": "vendedor.md",      "persona": "Vendedor" },
+    { "id": "venta-perdida-sin-talla",   "source": "vendedor.md",      "persona": "Vendedor" },
+    { "id": "tiempo-entrega-online",     "source": "vendedor.md",      "persona": "Vendedor" },
+    { "id": "seleccion-proveedores",     "source": "administrador.md", "persona": "Administrador" },
+    { "id": "metricas-sin-visibilidad",  "source": "administrador.md", "persona": "Administrador" },
+    { "id": "expansion-plus-sin-plan",   "source": "administrador.md", "persona": "Administrador" }
+  ]
+}
